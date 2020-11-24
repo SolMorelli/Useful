@@ -1,0 +1,199 @@
+/* --- --- NEEDED VARIABLES --- --- */
+
+:root {
+    --primary-color: #22577a;
+    --secondary-color: #38a3a5;
+    --accent-color: #80ed99;
+    --wild-color: #57cc99;
+
+    --primary-color-darker: #114161;
+    --secondary-color-darker: #228a8c;
+    --accent-color-darker: #5dd479;
+    --wild-color-darker: #3bb37f;
+
+    --primary-color-lighter: #114161;
+    --secondary-color-lighter: #228a8c;
+    --accent-color-lighter: #5dd479;
+    --wild-color-lighter: #3bb37f;
+
+    --black: #292a33;
+    --white: #e5e5e5;
+    --grey: #737580;
+    --lightgrey: #b6b7bf;
+
+    --black-darker: #14151a;
+    --white-darker: #cccccc;
+    --grey-darker: #5c5d66;
+    --lightgrey-darker: #9d9ea6;
+
+    --black-lighter: #3d3f4d;
+    --white-lighter: #ffffff;
+    --grey-lighter: #8a8c99;
+    --lightgrey-lighter: #cecfd9;
+}
+
+/* --- --- BUTTON --- --- */
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    border-style: solid;
+}
+.btn:hover {
+    filter: brightness (60%);
+}
+
+/* --- --- TEXT COLOR --- --- */
+
+.txt-white {
+    color: var(--white);
+}
+.txt-black {
+    color: var(--black);
+}
+.txt-grey {
+    color: var(--grey);
+}
+.txt-lightgrey {
+    color: var(--lightgrey);
+}
+.txt-primary {
+    color: var(--primary-color);
+}
+.txt-secondary {
+    color: var(--secondary-color);
+}
+.txt-accent {
+    color: var(--accent-color);
+}
+.txt-wild {
+    color: var(--wild-color);
+}
+
+/* --- --- BACKGROUND COLOR --- --- */
+
+.bg-white {
+    background-color: var(--white);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-grey {
+    background-color: var(--grey);
+}
+.bg-lightgrey {
+    background-color: var(--lightgrey);
+}
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+.bg-accent {
+    background-color: var(--accent-color);
+}
+.bg-wild {
+    background-color: var(--wild-color);
+}
+
+/* --- --- BORDER COLOR --- --- */
+
+.border-white {
+    border-color: var(--white);
+}
+.border-black {
+    border-color: var(--black);
+}
+.border-grey {
+    border-color:var(--grey);
+}
+.border-lightgrey {
+    border-color: var(--lightgrey);
+}
+.border-primary {
+    border-color: var(--primary-color);
+}
+.border-secondary {
+    border-color: var(--secondary-color);
+}
+.border-accent {
+    border-color: var(--accent-color);
+}
+.border-wild {
+    border-color: var(--wild-color);
+}
+
+/* --- --- BORDER STYLING --- --- */
+
+.borderless {
+    border: none;
+}
+.border-thin {
+    border-width: .1rem;
+}   
+.border-thick {
+    border-width: .25rem;
+}   
+.border-thicker {
+    border-width: .5rem;
+}   
+
+/* --- --- HOVER BG EFFECTS --- --- */
+
+.bg-white-hover-dark:hover {
+    background-color: var(--white-darker);
+}
+.bg-black-hover-dark:hover {
+    background-color: var(--black-darker);
+}
+.bg-grey-hover-dark:hover {
+    background-color: var(--grey-darker);
+}
+.bg-lightgrey-hover-dark:hover {
+    background-color: var(--lightgrey-darker);
+}
+.bg-primary-hover-dark:hover {
+    background-color: var(--primary-color-darker);
+}
+.bg-secondary-hover-dark:hover {
+    background-color: var(--secondary-color-darker);
+}
+.bg-accent-hover-dark:hover {
+    background-color: var(--accent-color-darker);
+}
+.bg-wild-hover-dark:hover {
+    background-color: var(--wild-color-darker);
+}
+.bg-white-hover-light:hover {
+    background-color: var(--white-lighter);
+}
+.bg-black-hover-light:hover {
+    background-color: var(--black-lighter);
+}
+.bg-grey-hover-light:hover {
+    background-color: var(--grey-lighter);
+}
+.bg-lightgrey-hover-light:hover {
+    background-color: var(--lightgrey-lighter);
+}
+.bg-primary-hover-light:hover {
+    background-color: var(--primary-color-lighter);
+}
+.bg-secondary-hover-light:hover {
+    background-color: var(--secondary-color-lighter);
+}
+.bg-accent-hover-light:hover {
+    background-color: var(--accent-color-lighter);
+}
+.bg-wild-hover-light:hover {
+    background-color: var(--wild-color-lighter);
+}

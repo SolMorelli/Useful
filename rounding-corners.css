@@ -1,0 +1,63 @@
+/* --- --- 
+                ROUNDING CORNERS
+                                     --- --- */
+
+/* --- --- TOP LEFT --- --- */
+
+.rounded, .rounded-t, .rounded-l, .rounded-tl {
+    border-top-left-radius: .5rem;
+}   
+.round, .round-t, .round-l, .round-tl {
+    border-top-left-radius: 2rem;
+}
+.rounder, .rounder-t, .rounder-l, .rounder-tl {
+    border-top-left-radius: 1rem;
+}
+.circle, .circle-t, .circle-l, .circle-tl {
+    border-top-left-radius: 50%;
+}
+
+/* --- --- TOP RIGHT --- --- */
+
+.rounded, .rounded-t, .rounded-r, .rounded-tr {
+    border-top-right-radius: .5rem;
+}   
+.round, .round-t, .round-r, .round-tr {
+    border-top-right-radius: 2rem;
+}
+.rounder, .rounder-t, .rounder-r, .rounder-tr {
+    border-top-right-radius: 1rem;
+}
+.circle, .circle-t, .circle-r, .circle-tr {
+    border-top-right-radius: 50%;
+}
+
+/* --- --- BOTTOM LEFT --- --- */
+
+.rounded, .rounded-b, .rounded-l, .rounded-bl {
+    border-bottom-left-radius: .5rem;
+}   
+.round, .round-b, .round-l, .round-bl {
+    border-bottom-left-radius: 2rem;
+}
+.rounder, .rounder-b, .rounder-l, .rounder-bl {
+    border-bottom-left-radius: 1rem;
+}
+.circle, .circle-b, .circle-l, .circle-bl {
+    border-bottom-left-radius: 50%;
+}
+
+/* --- --- BOTTOM RIGHT --- --- */
+
+.rounded, .rounded-b, .rounded-r, .rounded-br {
+    border-bottom-right-radius: .5rem;
+}   
+.round, .round-b, .round-r, .round-br {
+    border-bottom-right-radius: 2rem;
+}
+.rounder, .rounder-b, .rounder-r, .rounder-br {
+    border-bottom-right-radius: 1rem;
+}
+.circle, .circle-b, .circle-r, .circle-br {
+    border-bottom-right-radius: 50%;
+}
